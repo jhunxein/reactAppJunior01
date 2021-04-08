@@ -110,6 +110,19 @@ img {
 	justify-content: center;
 }
 
+.input--container {
+	width: 90%;
+	margin-right: 30px;
+	position: relative;
+}
+
+.email--input__error {
+	color: var(--clr-primary-3);
+	position: absolute;
+	bottom: -70%;
+	margin: 0;
+}
+
 @media only screen and (min-width: 680px) {
 }
 

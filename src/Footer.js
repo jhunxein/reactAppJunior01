@@ -51,16 +51,23 @@ function Footer() {
 							<label htmlFor="email" className="hide--elem">
 								Email Address
 							</label>
-							<input
-								type="email"
-								name="email"
-								id="email"
-								value={email}
-								onChange={handleInputChange}
-								className={`${
-									isEmailError ? 'footer__email input__error' : 'footer__email'
-								}`}
-							/>
+							<div className="input--container">
+								<input
+									type="email"
+									name="email"
+									id="email"
+									value={email}
+									onChange={handleInputChange}
+									className={`${
+										isEmailError ? 'footer__email input__error' : 'footer__email'
+									}`}
+								/>
+								{isEmailError && (
+									<p className="footer__desc email--input__error">
+										Please enter a valid email.
+									</p>
+								)}
+							</div>
 							<Button
 								text="Subscribe"
 								type="submit"
