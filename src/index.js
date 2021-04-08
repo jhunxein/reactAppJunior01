@@ -6,9 +6,13 @@ import 'normalize.css';
 import './css/index.css';
 import './css/helpers.css';
 
+import { AppProvider } from './helpers/context';
+
 ReactDOM.render(
 	<React.StrictMode>
-		<App />
+		<AppProvider>
+			<App />
+		</AppProvider>
 	</React.StrictMode>,
 	document.getElementById('root')
 );

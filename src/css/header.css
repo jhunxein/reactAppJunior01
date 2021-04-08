@@ -1,0 +1,35 @@
+.header {
+	width: 100%;
+	margin-top: 20px;
+	transition: var(--transition);
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nav__logo {
+	width: 86px;
+	transition: var(--transition);
+}
+
+.nav__btn {
+	color: var(--clr-primary-1);
+	border: 1px solid var(--clr-primary-1);
+	border-radius: 10px;
+	transition: var(--transition);
+}
+
+@media only screen and (min-width: 820px) {
+	.header {
+		margin-top: 55px;
+	}
+	.nav__logo {
+		width: 180px;
+	}
+	.nav__btn {
+		border-radius: 15px;
+	}
+}

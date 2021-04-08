@@ -3,9 +3,11 @@ import mockup from './../assets/images/screen-mockups.svg';
 
 import Button from './Button';
 
+import './../css/hero.css';
+
 function Hero() {
 	return (
-		<section className="hero">
+		<section className="container hero">
 			<h1 className="hero__title">build the community your fans will love</h1>
 			<p className="hero__desc">
 				Huddle re-imagines the way we build communities. You have a voice, but so
@@ -13,9 +15,13 @@ function Hero() {
 				genuine discussion.
 			</p>
 
-			<Button type="button" classes="btn cta" text="Get Started For Free" />
+			<Button
+				type="button"
+				classes="btn btn__primary btn__large cta"
+				text="Get Started For Free"
+			/>
 			<div className="hero--mockup">
-				<img src={mockup} alt="" className="hero__img" />
+				<img src={mockup} alt="" className="hero--mockup__img" />
 			</div>
 		</section>
 	);

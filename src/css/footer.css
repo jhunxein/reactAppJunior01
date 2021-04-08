@@ -1,0 +1,160 @@
+.footer {
+	width: 100%;
+}
+
+.footer--wrapper {
+	background-color: var(--clr-neutral-1);
+	padding-top: 54px;
+	transition: var(--transition);
+	padding-bottom: 40px;
+}
+
+.footer--wrapper > div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	transition: var(--transition);
+}
+
+div > .container:nth-child(1) {
+	margin-bottom: 178px;
+}
+
+.footer--form {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footer__title,
+.footer__desc,
+.footer--address {
+	color: white;
+	transition: var(--transition);
+}
+
+.footer__title {
+	margin-top: 0;
+	text-transform: uppercase;
+	margin-bottom: 22px;
+}
+
+.footer__desc {
+	margin-bottom: 34px;
+	margin-top: 0;
+}
+
+.footer--form {
+	width: 100%;
+}
+
+.footer__email {
+	width: 100%;
+	border: 1px solid transparent;
+	font-size: 10px;
+	margin-bottom: 14px;
+}
+
+.footer__btn {
+	padding: 14px 35px;
+	border-radius: 7px !important;
+	margin-left: auto;
+}
+
+.footer__logo {
+	width: 200px;
+	margin-bottom: 18px;
+}
+
+.footer--address {
+	font-style: normal;
+	font-size: 12px;
+	margin-bottom: 45px;
+}
+
+.address__icons {
+	width: 18px;
+	margin-right: 18px;
+}
+
+.footer__icon > svg {
+	transition: var(--transition);
+}
+.footer__icon > svg:hover {
+	color: var(--clr-primary-2);
+}
+
+@media only screen and (min-width: 680px) {
+	.footer--wrapper {
+		padding-bottom: 80px;
+	}
+
+	.footer--form {
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+	}
+	.footer__email {
+		margin-bottom: 0;
+		padding-top: 14px;
+		padding-bottom: 14px;
+		margin-right: 20px;
+	}
+	.footer__btn {
+		margin: 0;
+	}
+
+	.footer__title {
+		font-size: 22px;
+	}
+}
+
+@media only screen and (min-width: 820px) {
+	.footer__title {
+		font-size: 24px;
+	}
+
+	.footer__desc {
+		font-size: 14px;
+	}
+
+	.footer__email,
+	.footer--address {
+		font-size: 14px;
+	}
+
+	.footer__icon > svg {
+		font-size: 24px;
+	}
+}
+@media only screen and (min-width: 1440px) {
+	.footer--wrapper > div {
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.footer--wrapper > div .container:nth-child(1) {
+		max-width: 390px;
+	}
+	.footer--wrapper > div .container:nth-child(2) {
+		order: -1;
+		max-width: 230px;
+	}
+
+	.footer--wrapper > div .container {
+		width: 100%;
+	}
+
+	.footer__email,
+	.footer--address,
+	.footer__desc {
+		font-size: 12px;
+	}
+
+	.footer__icons {
+		padding-bottom: 0;
+	}
+}

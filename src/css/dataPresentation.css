@@ -1,0 +1,48 @@
+.presentation {
+	transition: var(--transition);
+}
+
+.presentation--wrapper {
+	text-align: center;
+}
+
+.presentation__icon {
+	width: 27px;
+	height: 23px;
+}
+
+.presentation__title {
+	font-size: 47px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+.presentation__desc {
+	color: var(--clr-neutral-3);
+	margin-top: 0;
+	margin-bottom: 85px;
+}
+
+.presentation__last__margin {
+	margin-bottom: 22px;
+}
+
+.presentation__flex {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+@media only screen and (min-width: 820px) {
+	.presentation {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-around;
+		max-width: 645px;
+		margin-bottom: 100px;
+	}
+	.presentation__desc {
+		margin: 0;
+	}
+}
