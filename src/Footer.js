@@ -72,7 +72,7 @@ function Footer() {
 					<section className="container">
 						<h2 className="hide--elem">Information Section</h2>
 						<a href="/">
-							<img src={logo} alt="" className="footer__logo" />
+							<img src={logo} alt="footer logo" className="footer__logo" />
 						</a>
 						<p className="footer__desc">
 							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad labore ex
