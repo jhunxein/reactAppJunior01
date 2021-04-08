@@ -29,6 +29,7 @@
 	cursor: pointer;
 	transition: var(--transition);
 	display: block;
+	text-decoration: none;
 }
 
 .btn__primary {
@@ -119,5 +120,9 @@ img {
 	}
 	.btn__large {
 		padding: 24px 75px;
+	}
+
+	.fix--width {
+		width: 142px;
 	}
 }

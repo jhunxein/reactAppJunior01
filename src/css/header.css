@@ -19,7 +19,6 @@
 	color: var(--clr-primary-1);
 	border: 1px solid var(--clr-primary-1);
 	border-radius: 10px;
-	transition: var(--transition);
 }
 
 @media only screen and (min-width: 820px) {

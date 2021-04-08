@@ -16,6 +16,7 @@
 	font-size: 47px;
 	margin-top: 15px;
 	margin-bottom: 20px;
+	transition: var(--transition);
 }
 
 .presentation__desc {
@@ -45,5 +46,9 @@
 	}
 	.presentation__desc {
 		margin: 0;
+		font-size: 14px;
+	}
+	.presentation__title {
+		font-size: 50px;
 	}
 }

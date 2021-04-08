@@ -15,11 +15,16 @@ function Hero() {
 				genuine discussion.
 			</p>
 
-			<Button
+			{/* <Button
 				type="button"
 				classes="btn btn__primary btn__large cta"
 				text="Get Started For Free"
-			/>
+			/> */}
+			<div className="hero--wrapper">
+				<a href="/" className="btn btn__primary btn__large cta">
+					Get Started For Free
+				</a>
+			</div>
 			<div className="hero--mockup">
 				<img src={mockup} alt="website logo" className="hero--mockup__img" />
 			</div>
