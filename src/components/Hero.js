@@ -1,8 +1,6 @@
 import React from 'react';
 import mockup from './../assets/images/screen-mockups.svg';
 
-import Button from './Button';
-
 import './../css/hero.css';
 
 function Hero() {
@@ -15,12 +13,7 @@ function Hero() {
 				genuine discussion.
 			</p>
 
-			{/* <Button
-				type="button"
-				classes="btn btn__primary btn__large cta"
-				text="Get Started For Free"
-			/> */}
-			<div className="hero--wrapper">
+			<div className="btn--wrapper">
 				<a href="/" className="btn btn__primary btn__large cta">
 					Get Started For Free
 				</a>

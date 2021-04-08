@@ -127,7 +127,8 @@ div > .container:nth-child(1) {
 		font-size: 24px;
 	}
 }
-@media only screen and (min-width: 1440px) {
+
+@media only screen and (min-width: 1025px) {
 	.footer--wrapper > div {
 		margin-left: auto;
 		margin-right: auto;
@@ -135,7 +136,6 @@ div > .container:nth-child(1) {
 		flex-direction: row;
 		justify-content: space-between;
 	}
-
 	.footer--wrapper > div .container:nth-child(1) {
 		max-width: 390px;
 	}
@@ -143,11 +143,12 @@ div > .container:nth-child(1) {
 		order: -1;
 		max-width: 230px;
 	}
-
 	.footer--wrapper > div .container {
 		width: 100%;
 	}
+}
 
+@media only screen and (min-width: 1440px) {
 	.footer__email,
 	.footer--address,
 	.footer__desc {

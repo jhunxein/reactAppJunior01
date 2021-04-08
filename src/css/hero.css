@@ -25,12 +25,7 @@
 
 .cta {
 	color: var(--clr-neutral-2);
-}
-
-.hero--wrapper {
 	margin-bottom: 90px;
-	display: flex;
-	justify-content: center;
 }
 
 .hero--mockup {
