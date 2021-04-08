@@ -70,6 +70,7 @@ function Footer() {
 					</section>
 
 					<section className="container">
+						<h2 className="hide--elem">Information Section</h2>
 						<a href="/">
 							<img src={logo} alt="" className="footer__logo" />
 						</a>
@@ -92,12 +93,15 @@ function Footer() {
 
 						<div className="footer--icons">
 							<a href="https://www.facebook.com" className="footer__icon">
+								<p className="hide--elem">Visit Facebook Page</p>
 								<FaFacebookSquare />
 							</a>
 							<a href="https://www.instagram.com" className="footer__icon">
+								<p className="hide--elem">Visit Instagram Page</p>
 								<FaInstagram />
 							</a>
 							<a href="https://www.twitter.com" className="footer__icon">
+								<p className="hide--elem">Visit Twitter Page</p>
 								<FaTwitterSquare />
 							</a>
 						</div>

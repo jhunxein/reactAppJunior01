@@ -25,6 +25,7 @@ function Community() {
 
 	return (
 		<article className="container--max community">
+			<h2 className="hide--elem">Community</h2>
 			<div className="img--design design__top">
 				{windowSize > 820 ? (
 					<img src={desktopTop1} alt="" aria-hidden={true} />

@@ -21,7 +21,7 @@ function Hero() {
 				text="Get Started For Free"
 			/>
 			<div className="hero--mockup">
-				<img src={mockup} alt="" className="hero--mockup__img" />
+				<img src={mockup} alt="website logo" className="hero--mockup__img" />
 			</div>
 		</section>
 	);
