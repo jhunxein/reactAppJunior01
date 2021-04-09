@@ -8,16 +8,12 @@ import { FaFacebookSquare, FaInstagram, FaTwitterSquare } from 'react-icons/fa';
 import phone from './assets/images/icon-phone.svg';
 import messages from './assets/images//icon-email.svg';
 
-import mobileTop from './assets/images/bg-footer-top-mobile.svg';
-import desktopTop from './assets/images/bg-footer-top-desktop.svg';
-
 import './css/footer.css';
 
 import { useGlobalContext } from './helpers/context';
 
 function Footer() {
 	const {
-		windowSize,
 		isEmailError,
 		email,
 		handleInputChange,
@@ -26,12 +22,8 @@ function Footer() {
 
 	return (
 		<footer className="container--max footer">
-			<div className="img--design">
-				{windowSize > 820 ? (
-					<img src={desktopTop} alt="" aria-hidden={true} />
-				) : (
-					<img src={mobileTop} alt="" aria-hidden={true} />
-				)}
+			<div className="img--design footer__top">
+				<div className="footer__img"></div>
 			</div>
 
 			<div className="footer--wrapper">

@@ -24,8 +24,10 @@ function DataPresentation() {
 						2.7m+
 					</h2>
 					<img src={messages} alt="" className="presentation__icon" />
-					<p className="presentation__desc ">Messages Sent</p>
 					<p className="hide--elem">two million seven hundred plus</p>
+					<p className="presentation__desc last--margin__presentation__desc">
+						Messages Sent
+					</p>
 				</div>
 			</section>
 		</div>
