@@ -145,7 +145,7 @@ div > .container:nth-child(1) {
 		background-image: url('./../assets/images/bg-footer-top-desktop.svg');
 	}
 	.footer__top {
-		min-height: 188px;
+		min-height: 200px;
 	}
 }
 
